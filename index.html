@@ -67,12 +67,12 @@ header{position:sticky;top:0;z-index:20;backdrop-filter:saturate(1.4) blur(12px)
 .logo b{display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--accent2),var(--accent3));color:#fff;font-size:13px}
 .logo span{color:var(--muted)}.logo span i{color:var(--accent);font-style:normal}
 .links{display:flex;gap:4px;align-items:center}
-.links a{padding:6px 12px;border-radius:8px;color:var(--muted);font-size:14px}
+.links a{padding:6px 12px;border-radius:8px;color:var(--muted);font-size:14px;white-space:nowrap}
 .links a:hover{color:var(--text);background:var(--card)}
 .icon-btn{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
 .icon-btn:hover{color:var(--text)}
 .menu-btn{display:none}
-@media (max-width:860px){
+@media (max-width:1000px){
   .links{position:absolute;top:60px;left:0;right:0;flex-direction:column;align-items:stretch;padding:8px 16px 16px;background:var(--bg);border-bottom:1px solid var(--line);display:none}
   .links.open{display:flex}.menu-btn{display:grid}
 }
@@ -212,7 +212,7 @@ footer{padding:36px 0 48px;color:var(--dim);font-size:13px;text-align:center}
   <nav class="wrap nav" aria-label="Main">
     <a class="logo" href="#top" aria-label="Tanmoy Bhattacharjee, home"><b>TB</b><span>tanmoy<i>@</i>eng:~$</span></a>
     <div class="links" id="links">
-      <a href="#agentic">Agentic AI</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#recognition">Recognition</a><a href="#contact">Contact</a><a href="resume.html">Résumé</a>
+      <a href="#agentic">Agentic AI</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#recognition">Recognition</a><a href="#contact">Contact</a><a href="resume.html">Résumé</a><a href="https://projects.tanmoybh.com/">Project Demos</a>
     </div>
     <div style="display:flex;gap:8px">
       <button class="icon-btn" id="theme" aria-label="Toggle light or dark theme"><svg width="18" height="18"><use href="#i-sun"/></svg></button>
